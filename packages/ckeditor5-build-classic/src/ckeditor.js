@@ -40,8 +40,8 @@ import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
 // import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js';
-import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
-import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
+// import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
+// import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
@@ -101,8 +101,8 @@ ClassicEditor.builtinPlugins = [
 	LinkImage,
 	List,
 	// ListStyle,
-	MediaEmbed,
-	MediaEmbedToolbar,
+	// MediaEmbed,
+	// MediaEmbedToolbar,
 	Mention,
 	PageBreak,
 	Paragraph,
@@ -157,10 +157,11 @@ ClassicEditor.defaultConfig = {
 			'code',
 			'codeBlock',
 			'|',
+			'imageUpload',
 			'imageInsert',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
+			// 'mediaEmbed',
 			'findAndReplace',
 			'htmlEmbed',
 			'|',
