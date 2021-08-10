@@ -88,6 +88,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
+    "init": "cd ./packages/ckeditor5-build-classic",
     "preversion": "npm run build"
   }
 }
