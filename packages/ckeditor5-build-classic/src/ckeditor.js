@@ -39,7 +39,7 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import LinkImage from '@ckeditor/ckeditor5-link/src/linkimage.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
-import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js';
+// import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle.js';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import MediaEmbedToolbar from '@ckeditor/ckeditor5-media-embed/src/mediaembedtoolbar.js';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention.js';
@@ -100,7 +100,7 @@ ClassicEditor.builtinPlugins = [
 	Link,
 	LinkImage,
 	List,
-	ListStyle,
+	// ListStyle,
 	MediaEmbed,
 	MediaEmbedToolbar,
 	Mention,
