@@ -161,7 +161,6 @@ ClassicEditor.defaultConfig = {
 			'imageInsert',
 			'blockQuote',
 			'insertTable',
-			'mediaEmbed',
 			'findAndReplace',
 			'htmlEmbed',
 			'|',
